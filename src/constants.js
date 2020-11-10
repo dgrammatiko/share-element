@@ -74,6 +74,6 @@ export const params = {
         description: "",
       },
     },
-    text: "Share via VK",
+    text: "Share via tumblr",
   },
 };
