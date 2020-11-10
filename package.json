@@ -1,0 +1,26 @@
+{
+  "name": "share-element",
+  "version": "1.0.0",
+  "description": "A wrapper of the Web Share API as Custom Element and a social share button",
+  "main": "./src/index.js",
+  "scripts": {
+    "start": "snowpack dev",
+    "build": "snowpack build",
+    "format": "prettier --write \"src/**/*.js\"",
+    "lint": "prettier --check \"src/**/*.js\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dgrammatiko/share-element.git"
+  },
+  "author": "Dimitrios Grammatikogiannis",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dgrammatiko/share-element/issues"
+  },
+  "homepage": "https://github.com/dgrammatiko/share-element#readme",
+  "devDependencies": {
+    "prettier": "^2.0.5",
+    "snowpack": "^2.15.1"
+  }
+}
