@@ -36,10 +36,10 @@ export class ShareElement extends HTMLElement {
     if (canonicalElement) {
       url = canonicalElement.href;
     }
-    if (document.title.count) {
-      title = canonicalElement.href;
+    if (!title) {
+      title = document.title;
     }
-    if (descriptionElement && descriptionElement.content.count) {
+    if (descriptionElement && descriptionElement.content) {
       text = descriptionElement.content;
     }
 
