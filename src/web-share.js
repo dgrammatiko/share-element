@@ -7,13 +7,13 @@ export class ShareElement extends HTMLElement {
   }
 
   connectedCallback() {
-    this.appendChild(this.button);
     this.button.innerText = this.getAttribute('text');
     if (navigator.share) {
       this.button.addEventListener("click", this.onClick);
     } else {
-      this.button.setAttribute('disable')
+      this.button.setAttribute('disable', '');
     }
+    this.appendChild(this.button);
   }
 
   disconnectedCallback() {
@@ -43,8 +43,7 @@ export class ShareElement extends HTMLElement {
       text = descriptionElement.content;
     }
 
-    navigator
-      .share({
+    navigator.share({
         title,
         text,
         url,
