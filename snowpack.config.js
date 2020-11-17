@@ -9,24 +9,10 @@ const mount = {
 const proxy = {};
 
 const plugins = [
-  ["@snowpack/plugin-babel"],
-  [
-    "snowpack-plugin-rollup-bundle",
-    {
-      emitHtmlFiles: true,
-      preserveSourceFiles: true,
-      entrypoints: "build/_dist_/index.js"
-    },
-  ],
 ];
 
 const installOptions = {
   NODE_ENV: true,
-  rollup: {
-    plugins: [
-      // resolve(),
-    ]
-  }
 };
 
 const alias = {};
@@ -38,7 +24,7 @@ const devOptions = {
 };
 
 const buildOptions = {
-  clean: true,
+  clean: false,
 };
 
 module.exports = {
