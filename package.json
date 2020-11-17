@@ -27,7 +27,7 @@
     "path": "0.12.7",
     "prettier": "2.1.2",
     "rollup": "2.33.1",
-    "snowpack": "2.17.0",
+    "snowpack": "2.17.1",
     "snowpack-plugin-rollup-bundle": "0.3.3"
   }
 }
