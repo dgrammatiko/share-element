@@ -28,6 +28,6 @@
     "prettier": "2.2.0",
     "rollup": "2.38.5",
     "snowpack": "2.18.5",
-    "snowpack-plugin-rollup-bundle": "0.3.3"
+    "snowpack-plugin-rollup-bundle": "0.4.4"
   }
 }
