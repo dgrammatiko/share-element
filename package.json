@@ -23,7 +23,7 @@
     "@rollup/plugin-commonjs": "17.1.0",
     "@rollup/plugin-node-resolve": "10.0.0",
     "@snowpack/plugin-babel": "2.1.7",
-    "glob": "7.1.6",
+    "glob": "7.1.7",
     "path": "0.12.7",
     "prettier": "2.2.0",
     "rollup": "2.47.0",
