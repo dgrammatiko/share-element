@@ -21,7 +21,7 @@
   "homepage": "https://github.com/dgrammatiko/share-element#readme",
   "devDependencies": {
     "@rollup/plugin-commonjs": "17.1.0",
-    "@rollup/plugin-node-resolve": "13.0.4",
+    "@rollup/plugin-node-resolve": "13.3.0",
     "@snowpack/plugin-babel": "2.1.7",
     "glob": "7.2.3",
     "path": "0.12.7",
