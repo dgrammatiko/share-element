@@ -26,7 +26,7 @@
     "glob": "7.2.3",
     "path": "0.12.7",
     "prettier": "2.3.2",
-    "rollup": "2.56.3",
+    "rollup": "3.29.4",
     "snowpack": "3.8.8",
     "snowpack-plugin-rollup-bundle": "0.4.4"
   }
