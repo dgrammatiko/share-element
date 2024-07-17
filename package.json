@@ -25,7 +25,7 @@
     "@snowpack/plugin-babel": "2.1.7",
     "glob": "11.0.0",
     "path": "0.12.7",
-    "prettier": "2.3.2",
+    "prettier": "2.8.8",
     "rollup": "4.18.1",
     "snowpack": "3.8.8",
     "snowpack-plugin-rollup-bundle": "0.4.4"
